@@ -1,0 +1,36 @@
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+  padding: 5px;
+  z-index: 1000;
+  color: rgb(245, 235, 235);
+}
+.logo {
+  position: absolute;
+  margin: 0;
+  left: 0;
+} 
+header ul li a:hover {
+  border: 2px solid white;
+  border-radius: 20px;
+  background: rgba(132, 173, 65, 0.637);
+  color: rgb(219, 107, 107);
+}
+.menuitems {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(245, 231, 231);
+}
+.menuitems li {
+  margin: 2px 30px;
+  padding: 10px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: rgb(247, 241, 241);
+}
