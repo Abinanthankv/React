@@ -1,9 +1,16 @@
-*{
-    
+* {
+
     box-sizing: border-box;
-  }
-#destinations{
-   
+}
+
+#destinations {
+
     height: 100vh;
     width: 100vw;
+}
+
+ img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid gray;
 }
