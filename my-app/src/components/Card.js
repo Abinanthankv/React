@@ -1,16 +1,25 @@
 import React from "react";
-import "../styles/Card.css"
-import coimbatore from "../images/coimbatore.jpg"
-export default function Card() {
+import "../styles/Card.css";
+
+export default function Card(props) {
   return (
-    <section id="destinations">
-      <h1>Places to Visit</h1>
-      <div className="cards">
-      <img  src={coimbatore}  ></img>
-
-
+  
+      <section className="cards">
+         <div className="card">
+        <img src={props.coverImg} />
+        
+        
+        <div className="overlay">
+        <div>{props.title}</div>
+        <div >{props.description}</div>
+        </div>
+          
+       
       </div>
+      </section>
      
-    </section>
+    
+   
+    
   );
 }
